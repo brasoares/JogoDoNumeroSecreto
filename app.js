@@ -8,4 +8,6 @@ let chute = prompt("Escolha um valor de 0 a 9: ");
 
 if (chute == numeroSecreto){
     alert("Parabéns! Você acertou! O número secreto é o 7!");
+} else {
+    
 }
