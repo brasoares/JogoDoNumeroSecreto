@@ -1,5 +1,5 @@
 alert("Seja bem-vindo(a) ao Jogo do Número Secreto!")
-let numeroSecreto = 7;
+let numeroSecreto = 4;
 let chute = prompt("Escolha um valor de 0 a 9: ");
 
 /* if (chute == numeroSecreto){
