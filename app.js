@@ -7,7 +7,7 @@ let chute = prompt("Escolha um valor de 0 a 9: ");
 } */
 
 if (chute == numeroSecreto){
-    alert(`Parabéns! Você acertou! O número secreto é o ${}!`);
+    alert(`Parabéns! Você acertou! O número secreto é o ${numeroSecreto}!`);
 } else {
     alert("Errrrrrrrrrrrrrou!");
 }
