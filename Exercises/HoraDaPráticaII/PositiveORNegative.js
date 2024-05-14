@@ -1,0 +1,1 @@
+numToCheck = prompt("Informe um número qualquer: ");
