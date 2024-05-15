@@ -1,3 +1,3 @@
 let namaeWa = prompt("Enter a name: ");
 
-alert(namaeWa);
+alert(`Welcome, {namaeWa}!`);
