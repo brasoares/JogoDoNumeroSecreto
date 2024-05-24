@@ -10,10 +10,6 @@ if (chute == numeroSecreto){
     alert(`Parabéns! Você acertou! O número secreto é o ${numeroSecreto}!`);
 } else {
     if(chute > numeroSecreto) {
-        alert("O valor é abaixo do tentado!"){
             alert(`O número secreto é menor que ${chute}`);
         }
     }
-}
-
-alert("Errrrrrrrrrrrrrou!");
