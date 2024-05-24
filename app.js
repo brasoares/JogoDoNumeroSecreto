@@ -9,7 +9,7 @@ let chute = prompt("Escolha um valor de 0 a 9: ");
 if (chute == numeroSecreto){
     alert(`Parabéns! Você acertou! O número secreto é o ${numeroSecreto}!`);
 } else {
-    if(numeroSecreto > chute) {
+    if(chute > numeroSecreto) {
         alert("O valor é abaixo do tentado!"){
             alert(`O número secreto é maior que ${chute}`);
         }
