@@ -11,7 +11,7 @@ if (chute == numeroSecreto){
 } else {
     if(chute > numeroSecreto) {
         alert("O valor é abaixo do tentado!"){
-            alert(`O número secreto é maior que ${chute}`);
+            alert(`O número secreto é menor que ${chute}`);
         }
     }
 }
