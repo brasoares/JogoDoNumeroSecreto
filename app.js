@@ -16,7 +16,7 @@ while (chute != numeroSecreto) {
 	} */
 
 	if (chute == numeroSecreto) {
-		alert(`Parabéns! Você acertou! O número secreto é o ${numeroSecreto} e você já tentou ${tentativas} vez(es)!`);
+		alert(`Parabéns! Você acertou! O número secreto é o ${numeroSecreto} e você tentou o total de ${tentativas} vez(es)!`);
 	} else {
 		if (chute > numeroSecreto) {
 			alert(`O número secreto é menor que ${chute}`);
