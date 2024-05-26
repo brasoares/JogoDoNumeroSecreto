@@ -1,5 +1,5 @@
 alert("Seja bem-vindo(a) ao Jogo do Número Secreto!")
-let numeroSecreto = 7;
+let numeroSecreto = 7; console.log(numeroSecreto);
 let chute
 
 // enquanto o chute não for igual ao nosso nº secreto
