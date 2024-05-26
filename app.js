@@ -23,6 +23,6 @@ while (chute != numeroSecreto) {
 		} else {
 			alert(`O número secreto é maior que ${chute}`);
 		}
-        tentativas ++;
+        tentativas += 1;
 	}
 }
