@@ -1,6 +1,6 @@
 alert("Seja bem-vindo(a) ao Jogo do Número Secreto!")
 let numeroSecreto = 7;
-let chute = prompt("Escolha um valor de 0 a 9: ");
+let chute
 
 // enquanto o chute não for igual ao nosso nº secreto
 
