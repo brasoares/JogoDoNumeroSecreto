@@ -7,7 +7,7 @@ let tentativas = 1;
 // enquanto o chute não for igual ao nosso nº secreto
 
 while (chute != numeroSecreto) {
-	chute = prompt("Escolha um valor de 0 a 9: ");
+	chute = Number(prompt("Escolha um valor de 0 a 9: "));
 
 	// se o chute for igual ao número secreto
 
