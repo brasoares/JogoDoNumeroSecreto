@@ -1,6 +1,6 @@
 let num = 1;
 
 while(num < 11){
-    print(num);
+    console.log(num);
     num++;
 }
