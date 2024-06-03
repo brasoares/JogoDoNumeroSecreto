@@ -3,5 +3,6 @@
 let num = prompt("Informe um número: ");
 
 while (num > 0){
+    console.log(num);
     num--;
 }
