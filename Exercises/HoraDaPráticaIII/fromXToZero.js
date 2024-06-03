@@ -4,7 +4,10 @@ let num = prompt("Informe um número: ");
 
 num = parseInt(num);
 
-while (num > 0){
+if (isNaN(num)){
+    console.log("Por favor, insira um número válido: ")
+} else {while (num > 0){
     console.log(num);
     num--;
-}
+}}
+
