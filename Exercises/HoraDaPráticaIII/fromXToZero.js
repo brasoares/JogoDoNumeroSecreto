@@ -2,6 +2,8 @@
 
 let num = prompt("Informe um número: ");
 
+num = parseInt(num);
+
 while (num > 0){
     console.log(num);
     num--;
