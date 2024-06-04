@@ -4,6 +4,7 @@ let num = prompt("Informe um número: ");
 
 num = parseInt(num);
 
+// Começar com o if adiante garante que haverá checagem própria se o que foi entrado é ou não número; muito importante
 if (isNaN(num)) {
 	console.log("Por favor, insira um número válido: ")
 } else {
