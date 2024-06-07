@@ -2,4 +2,6 @@
 
 let num = prompt("Enter a number: ")
 
-if 
+while (counter < num) {
+    
+}
