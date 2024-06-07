@@ -4,5 +4,5 @@ let num = prompt("Enter a number: ");
 let counter = 0;
 
 while (counter < num) {
-    
+    counter < num;
 }
