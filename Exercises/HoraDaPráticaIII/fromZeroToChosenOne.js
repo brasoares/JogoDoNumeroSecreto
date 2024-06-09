@@ -7,3 +7,5 @@ while (counter < num) {
     counter < num;
     counter++;
 }
+
+alert(num);
