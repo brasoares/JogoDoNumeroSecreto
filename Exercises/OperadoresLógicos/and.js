@@ -3,5 +3,7 @@ let possuiCarteira = true;
 
 // Se idade é maior de 18 anos e possui carteira...
 if (idade > 18 && possuiCarteira){
-    console.log("Pode dirigir!")
+    console.log("Pode dirigir!");
+} else {
+    console.log("Não pode dirigir!");
 }
