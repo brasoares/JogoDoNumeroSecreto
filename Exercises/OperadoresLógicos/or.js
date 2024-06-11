@@ -7,5 +7,3 @@ if (temMaca || temBanana) {
 } else {
 	console.log("Não há frutas!");
 }
-
-// 😊🍎🍌
