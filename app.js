@@ -16,6 +16,7 @@ while (chute != numeroSecreto) {
 	} */
 
 	if (chute == numeroSecreto) {
+		break;
 		alert(`Parabéns! Você acertou! O número secreto é o ${numeroSecreto} e você tentou acertá-lo o total de ${tentativas} vez(es)!`);
 	} else {
 		if (chute > numeroSecreto) {
