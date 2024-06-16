@@ -31,5 +31,7 @@ while (chute != numeroSecreto) {
 }
 
 if (tentativas > 1) {
+	alert(`Isso aí! Você descobriu o número secreto ${numeroSecreto} com ${tentativas} tentativas.`)
+} else {
 	
 }
