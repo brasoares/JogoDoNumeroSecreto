@@ -10,6 +10,6 @@ while(chute !== numeroSecreto){
 
     if (chute === numeroSecreto) {
         let tentativasTexto = tentativas === 1 ? "vez" : "vezes";
-        alert(`Parabéns! Você acertou! O número secreto é o ${numeroSecreto} e você tentou acertá-lo com um total de ${tentativas}`)
+        alert(`Parabéns! Você acertou! O número secreto é o ${numeroSecreto} e você tentou acertá-lo com um total de ${tentativas} ${tentativasTexto}.`)
     }
 }
