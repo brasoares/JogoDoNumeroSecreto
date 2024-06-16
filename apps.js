@@ -3,3 +3,4 @@ let numeroSecreto = 7;
 console.log(numeroSecreto);
 let chute;
 let tentativas = 0;
+
