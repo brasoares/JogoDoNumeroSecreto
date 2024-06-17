@@ -15,4 +15,6 @@ while (chute !== numeroSecreto) {
 		alert(`O número secreto é ${chute > numeroSecreto ? "menor" : "maior"} que ${chute}`);
 	}
 }
-// let palavraTentativa = tentativas > 1 ? 'tentativas' : 'tentativa';
+// let palavraTentativa = tentativas > 1 ? 'tentativas' : 'tentativa'; É o Operador ternário
+// Additional sources: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Operators/Conditional_operator
+// Funcionamento: condition ? expr1 (if True) : expr2 (if False)
