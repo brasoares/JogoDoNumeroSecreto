@@ -15,3 +15,4 @@ while (chute !== numeroSecreto) {
 		alert(`O número secreto é ${chute > numeroSecreto ? "menor" : "maior"} que ${chute}`);
 	}
 }
+// let palavraTentativa = tentativas > 1 ? 'tentativas'
