@@ -1,5 +1,5 @@
 alert("Seja bem-vindo(a) ao Jogo do Número Secreto!");
-let numeroSecreto = 7;
+let numeroSecreto = Math.random;
 console.log(numeroSecreto);
 let chute;
 let tentativas = 1;
@@ -24,7 +24,7 @@ while (chute != numeroSecreto) {
     if (chute > numeroSecreto) {
       alert(`O número secreto é menor que ${chute}`);
     } else {
-      alert(`O número secreto é maior que ${chute}`);
+      alert(`O número secreto e maior que ${chute}`);    
     }
     // tentativas = tentativas + 1;
     // tentativas += 1; Esta é uma forma melhor e mais prática de se fazer, é mais célere e economiza tempo e código, enquanto se poderá focar no que há a mais!
