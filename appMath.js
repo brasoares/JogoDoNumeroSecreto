@@ -1,43 +1,27 @@
 alert("Seja bem-vindo(a) ao Jogo do Número Secreto!");
-let numeroSecreto = Math.random;
+let numeroSecreto = Math.floor(Math.random() * 10); // Gera um número aleatório entre 0 e 9
 console.log(numeroSecreto);
 let chute;
-let tentativas = 1;
+let tentativas = 0;
 
-// enquanto o chute não for igual ao nosso nº secreto
-
-while (chute != numeroSecreto) {
+while (chute !== numeroSecreto) {
   chute = Number(prompt("Escolha um valor de 0 a 9: "));
 
-  // se o chute for igual ao número secreto
-
-  /* if (chute == numeroSecreto){
-	console.log("Parabéns! Você acertou! O número secreto é o 7!");
-	} */
-
-  if (chute == numeroSecreto) {
+  if (chute === numeroSecreto) {
     break;
-    alert(
-      `Parabéns! Você acertou! O número secreto é o ${numeroSecreto} e você tentou acertá-lo o total de ${tentativas} vez(es)!`
-    );
+  } else if (chute > numeroSecreto) {
+    alert(`O número secreto é menor que ${chute}`);
   } else {
-    if (chute > numeroSecreto) {
-      alert(`O número secreto é menor que ${chute}`);
-    } else {
-      alert(`O número secreto é maior que ${chute}`);    
-    }
-    // tentativas = tentativas + 1;
-    // tentativas += 1; Esta é uma forma melhor e mais prática de se fazer, é mais célere e economiza tempo e código, enquanto se poderá focar no que há a mais!
-    tentativas++;
+    alert(`O número secreto é maior que ${chute}`);
   }
+  
+  tentativas++;
 }
 
+tentativas++; // Conta a tentativa do acerto
+
 if (tentativas > 1) {
-  alert(
-    `Isso aí! Você descobriu o número secreto ${numeroSecreto} com ${tentativas} tentativas.`
-  );
+  alert(`Parabéns! Você descobriu o número secreto ${numeroSecreto} com ${tentativas} tentativas.`);
 } else {
-  alert(
-    `Isso aí! Você descobriu o número secreto ${numeroSecreto} com 1 tentativa.`
-  );
+  alert(`Parabéns! Você descobriu o número secreto ${numeroSecreto} com 1 tentativa.`);
 }
