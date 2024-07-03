@@ -1,18 +1,33 @@
+:root {
+    --primary-color: #1875E8;
+    --secondary-color: #1354A5;
+    --dark-color: #041832;
+    --darker-color: #01080E;
+    --white-color: #ffffff;
+    --box-shadow: 4px 4px 20px 0px rgba(1, 8, 14, 0.15);
+    --border-radius: 24px;
+    --button-radius: 16px;
+    --font-family-primary: 'Chakra Petch', sans-serif;
+    --font-family-secondary: 'Inter', sans-serif;
+    --font-size-h1: 72px;
+    --font-size-h2: 32px;
+    --font-size-button: 24px;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    color: white;
+    color: var(--white-color);
 }
 
 body {
-    background: linear-gradient(#1354A5 0%, #041832 33.33%, #041832 66.67%, #01080E 100%);
+    background: linear-gradient(var(--secondary-color) 0%, var(--dark-color) 33.33%, var(--dark-color) 66.67%, var(--darker-color) 100%);
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
 
 body::before {
     background-image: url("img/code.png");
@@ -32,11 +47,11 @@ body::before {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-radius: 24px;
-    border: 1px solid #1875E8;
-    box-shadow: 4px 4px 20px 0px rgba(1, 8, 14, 0.15);
+    border-radius: var(--border-radius);
+    border: 1px solid var(--primary-color);
+    box-shadow: var(--box-shadow);
     background-image: url("img/Ruido.png");
-    background-size: 100% 100%;
+    background-size: cover;
     position: relative;
 }
 
@@ -53,36 +68,47 @@ body::before {
 }
 
 .container__botao {
-    border-radius: 16px;
-    background: #1875E8;
+    border-radius: var(--button-radius);
+    background: var(--primary-color);
     padding: 16px 24px;
     width: 100%;
-    font-size: 24px;
+    font-size: var(--font-size-button);
     font-weight: 700;
     border: none;
     margin-top: 16px;
+    color: var(--white-color);
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.container__botao:hover {
+    background: darken(var(--primary-color), 10%);
+}
+
+.container__botao:focus {
+    outline: 3px solid var(--secondary-color);
 }
 
 .container__texto {
-    margin: 16px 0 16px 0;
+    margin: 16px 0;
 }
 
 .container__texto-azul {
-    color: #1875E8;
+    color: var(--primary-color);
 }
 
 h1 {
-    font-family: 'Chakra Petch', sans-serif;
-    font-size: 72px;
+    font-family: var(--font-family-primary);
+    font-size: var(--font-size-h1);
 }
 
 h2,
 p,
 button {
-    font-family: 'Inter', sans-serif;
+    font-family: var(--font-family-secondary);
 }
 
 h2 {
-    font-size: 32px;
+    font-size: var(--font-size-h2);
     font-weight: 400;
 }
