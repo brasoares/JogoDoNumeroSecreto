@@ -4,7 +4,7 @@ console.log(numeroSecreto);
 let chute;
 let tentativas = 1;
 
-// enquanto o chute não for igual ao nosso nº secreto
+// enquanto o chute não for igual ao nosso nº secreto faça
 
 while (chute != numeroSecreto) {
   chute = Number(prompt("Escolha um valor de 0 a 9: "));
